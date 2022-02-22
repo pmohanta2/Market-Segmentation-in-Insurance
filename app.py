@@ -14,8 +14,8 @@ import pickle
 # In[9]:
 
 
-loaded_model = pickle.load(open('C:/Users/Prabin/projects/Untitled Folder/final_model.sav', 'rb'))
-df = pd.read_csv("C:/Users/Prabin/projects/Untitled Folder/Clustered_Customer_Data.csv")
+loaded_model = pickle.load(open('final_model.sav', 'rb'))
+df = pd.read_csv("Clustered_Customer_Data.csv")
 
 
 # In[10]:
