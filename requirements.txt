@@ -1,6 +1,6 @@
 numpy
 seaborn
-sklearn
+sklearn==0.24.2
 matplotlib
 pandas
 streamlit
