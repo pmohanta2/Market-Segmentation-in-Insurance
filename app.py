@@ -71,6 +71,7 @@ if submitted:
     st.success(a)
 
     cluster_df1=df[df['Cluster']==clust]
+    plt.figure(figsize=(5,5))
     for c in cluster_df1.drop(['Cluster'],axis=1):
         grid= sns.FacetGrid(cluster_df1, col='Cluster')
         grid= grid.map(plt.hist, c)
